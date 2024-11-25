@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block10-Workshop</title>
+    <style>
+        .container{
+            border: 1px solid;
+            height: 600px;
+            display: grid;
+            grid-template-columns: 15% 70% 15%;
+            grid-template-rows: 20% 60% 20%;
+        }
+        .header{
+            border: 2px solid;
+            height: 120px;
+            grid-column: 1/4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+        }
+        .sidebar1{
+            border: 2px solid;
+            height: 360px;
+            grid-column: 1/2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+        }
+        .sidebar2{
+            border: 2px solid;
+            height: 360px;
+            grid-column: 2/3;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+        }
+        .sidebar3{
+            border: 2px solid;
+            height: 360px;
+            grid-column: 3/4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+        }
+        .footer{
+            border: 2px solid;
+            height: 120px;
+            grid-column: 1/4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+        }
+
+    </style>
+</head>
+<body class="container">
+    <p class="header">HEADER</p>
+    <p class="sidebar1">SIDEBAR</p>
+    <p class="sidebar2">CONTENT</p>
+    <p class="sidebar3">SIDEBAR</p>
+    <p class="footer">FOOTER</p>
+</body>
+</html>
