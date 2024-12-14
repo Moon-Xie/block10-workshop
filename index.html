@@ -6,14 +6,17 @@
     <title>Block10-Workshop</title>
     <style>
         .container{
-            border: 1px solid;
+            border: 1px solid grey;
             height: 600px;
+            padding: 20px;
             display: grid;
             grid-template-columns: 15% 70% 15%;
             grid-template-rows: 20% 60% 20%;
         }
+        body *{
+            border: 1px solid grey;
+        }
         .header{
-            border: 2px solid;
             height: 120px;
             background-color: rgb(250, 215, 227);
             grid-column: 1/4;
@@ -23,7 +26,6 @@
             flex-direction: row;
         }
         .sidebar1{
-            border: 2px solid;
             height: 360px;
             background-color:beige;
             grid-column: 1/2;
@@ -33,7 +35,6 @@
             flex-direction: row;
         }
         .sidebar2{
-            border: 2px solid;
             height: 360px;
             background-color: blanchedalmond;
             grid-column: 2/3;
@@ -43,7 +44,6 @@
             flex-direction: row;
         }
         .sidebar3{
-            border: 2px solid;
             height: 360px;
             background-color: beige;
             grid-column: 3/4;
@@ -53,7 +53,6 @@
             flex-direction: row;
         }
         .footer{
-            border: 2px solid;
             height: 120px;
             background-color: rgb(157, 201, 219);
             grid-column: 1/4;
@@ -61,6 +60,9 @@
             justify-content: center;
             align-items: center;
             flex-direction: row;
+        }
+        p {
+            font-size: 0.7em;
         }
 
     </style>
